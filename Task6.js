@@ -11,7 +11,7 @@ arr.map(function(item, index, array) {
       {result1=false}
   return result2=result1})
 
- console.log(result2)
+ // console.log(result2)
 if (result2 == false) { 
   console.log("Есть два или более не одиноковых елемента")}
  else console.log("Все элементы одинаковы")

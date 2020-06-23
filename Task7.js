@@ -8,16 +8,17 @@ let arr =[1, 2, 345, 'jhlh', 17, 782, 185, 0, 0, 66, 799, null, null, 'asd']
 let i = 0
 let chet = 0
 let nechet = 0
-let elem0 =0
-let elemnull =0
+let elem0 = 0
+let elemnull = 0
 let string = 0
+
 
 do { 
       if (isNaN(+ arr[i])) { string ++ }
-       else if (arr[i] == null) { elemnull ++ }
-       else if (arr[i] == 0) { elem0 ++ }    
-       else if (arr[i]%2 > 0) { nechet ++ } 
-       else if (arr[i]%2 == 0) { chet ++ }
+      else if (arr[i] == null) { elemnull ++ }
+      else if (arr[i] == 0) { elem0 ++ }    
+      else if (arr[i]%2 > 0) { nechet ++ } 
+      else if (arr[i]%2 == 0) { chet ++ }
       i++
     } while (i < arr.length)
         
