@@ -2,6 +2,11 @@
 // записать в переменную случайное целое число в диапазоне [0; 100]
  // Используйте объект Math.
 
-let x 
-x = Math.floor((Math.random()*100))
-console.log(x)
+// let x 
+// x = Math.floor((Math.random()*100))
+// console.log(x)
+
+// Почти верно, но код выше будет возвращать рандомные числа в диапазоне от 0 до 99 (100 включено не будет). Верный вариант:
+
+const random = Math.floor(Math.random() * 101);
+console.log(random);
